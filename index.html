@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer repositorio</title>
-    <link rel="stylesheet" href="css/styless.css">
+    <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="css/styless.css">
 </head>
 <body>
-    <h1>Hola</h1>
-    <button onclick="color()">Haz click aquí</button>
-    <script> src="js/script.js"</script>
+    <div class="container">
+        <h1>Encriptador</h1>
+        <form id="formEncriptador">
+            <label for="texto">Texto:</label>
+            <input type="text" id="texto" name="texto">
+            
+            <label for="desplazamiento">Desplazamiento:</label>
+            <input type="number" id="desplazamiento" name="desplazamiento">
+            
+            <button type="button" onclick="encriptar()">Encriptar</button>
+            <button type="button" onclick="desencriptar()">Desencriptar</button>
+        </form>
+
+        <p id="resultado"></p>
+        <button id="copiarBtn" onclick="copiarTexto()" style="display: none;">Copiar Mensaje</button>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
