@@ -1,32 +1,36 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ff0000;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(https://img.freepik.com/foto-gratis/silueta-pareja-enamorada-siendo-afectuosa_23-2150984247.jpg?t=st=1724198255~exp=1724201855~hmac=453d370a4416119756cdd433f26d1784ba454a9a39d76fa91c414cead2b21074&w=740);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el elemento */
+    background-position: center; /* Centra la imagen dentro del elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #ff0000;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
     width: 100%;
     max-width: 400px;
     text-align: center;
 }
 
 h1 {
-    color: #333333;
+    color: #6b0000;
     margin-bottom: 20px;
 }
 
 label {
     font-weight: bold;
-    color: #555555;
+    color: #680000;
     margin-top: 10px;
     display: block;
     text-align: left;
@@ -36,13 +40,13 @@ input[type="text"], input[type="number"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #dddddd;
+    border: 1px solid #fdb3b3;
     border-radius: 4px;
 }
 
 button {
-    background-color: #007BFF;
-    color: #ffffff;
+    background-color: #ffbda3;
+    color: #5e0000;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
